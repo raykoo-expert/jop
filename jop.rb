@@ -35,9 +35,9 @@ if ARGV.size .eql?(2) == false
 	puts "\nusage [server ip] [variable] ex: ruby DEV.rb 127.0.0.1 id"
 else 
 	begin 
-		puts "#################"
-		puts "#      jop      #"
-		puts "#################"
+		puts "####################################"
+		puts "#      shared by raykoo expert     #"
+		puts "####################################"
 		web_count(ARGV[0],ARGV[1])
 		check_sql()
 	rescue
