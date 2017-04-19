@@ -32,7 +32,7 @@ def check_sql()
 end
 
 if ARGV.size .eql?(2) == false 
-	puts "\nusage [server ip] [variable] ex: ruby DEV.rb 127.0.0.1 id"
+	puts "\n usage: ruby jop.rb 127.0.0.1 id"
 else 
 	begin 
 		puts "####################################"
