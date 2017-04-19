@@ -4,7 +4,7 @@ require 'net/http'
 
 
 def web_count(server_ip,variable)
-	file = File.new("website.txt","w")
+	file = File.new("kurdistan.txt","w")
 	(0..6).each do |pages|
 		req = Net::HTTP.get_response(URI.parse("http://www.bing.com/search?q=ip%3a#{server_ip}+%22.php%3f#{variable}%3d%22&go=&filt=all&first=#{pages*10 + 1}&FORM=PERE1")) #get the request
 		bodys = req.body
