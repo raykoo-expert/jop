@@ -20,7 +20,7 @@ def web_count(server_ip,variable)
 	file.close
 end
 def check_sql()
-	file = File.open("sql.txt","r")
+	file = File.open("kurdistan.txt","r")
 	file.each_line do |x|
 		web_v = x+"'"
 		web_v["\n"]=""
